@@ -26,9 +26,7 @@ public class PinturasCuboMain {
 		
 		Pinturas ObjPintura = new Pinturas(lado, rendimento, tinta);
 		
-		System.out.println("A área do cubo é de "+ObjPintura.areaCubo());
-		System.out.println("O rendimento total é de "+ObjPintura.areaRendimento());
-		System.out.println("O tipo de tinta escolhido foi de "+ObjPintura.tipoTinta());
+		System.out.println(ObjPintura.toString());
 		System.out.println("Obrigado!");
 		
 		entrada.close();
